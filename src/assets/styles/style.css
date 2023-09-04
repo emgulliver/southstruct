@@ -1,4 +1,9 @@
 
+html, body {
+  margin: 0;
+  padding: 0; /* Also set padding to 0 to ensure there's no additional spacing */
+}
+
 /* NAVBAR */
 
 .navbar {

@@ -1,7 +1,7 @@
 <template>
-    <section class="section testimonial-background my-5 has-text-white">
+    <section class="section testimonial-background my-5 has-text-white" style="height: 600px;">
       <div class="testimonials-container my-5 is-flex is-justify-content-center is-align-content-center is-align-items-center is-align-self-center		 ">
-        <div class="navigation my-5">
+        <div class="navigation">
           <button @click="prevTestimonial" class="ml-5 mr-5 has-text-white is-size-2">&lt;</button>
           <div class="testimonial has-text-centered" style="max-width: 600px; min-width: 200px" v-for="(testimonial, index) in testimonials" :key="index" :class="{ 'active': currentIndex === index }">
             <p class="is-size-5 mb-5">{{ testimonial.quote }}</p>

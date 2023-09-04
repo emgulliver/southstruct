@@ -5,10 +5,7 @@
       <div class="column is-4" v-for="(project, index) in projects" :key="index">
         <div class="card">
           <div class="card-image" @mouseover="showOverlay(index)" @mouseout="hideOverlay">
-            <figure class="image">
-              <img :src="project.src" :alt="project.heading" style="height: 100%;"/>
-              <img src="../../public/CoogeeApartments.jpg" alt="">
-            </figure>
+            <img :src="project.src" :alt="project.heading" style="height: 100%;"/>
             <div class="overlay" v-if="overlayIndex === index"></div>
           </div>
           <div class="card-content">

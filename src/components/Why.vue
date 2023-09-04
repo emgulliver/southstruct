@@ -5,7 +5,7 @@
                 WHY CHOOSE US?
             </h2>
         </div>
-      <div class="why-container columns is-multiline mt-5">
+      <div class="why-container columns is-multiline mt-5" >
         <div class="column is-6">
           <div class="box has-text-centered is-flex is-flex-direction-column is-justify-content-space-evenly" style="min-height: 200px" >
             <h2 class="has-text-weight-semibold">EXPERTISE</h2>

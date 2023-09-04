@@ -51,9 +51,11 @@
   const message = ref("");
   
   const submitForm = () => {
-    // Handle form submission here
-    // You can access the form data from the ref variables (name, email, subject, message)
-    console.log("Form submitted");
+  const subjectText = `${subject.value}`;
+  const body = `Name: ${name.value} Message: ${message.value}`;
+  const mailtoString = `mailto:drew@southstructwa.au?subject=${encodeURIComponent(subjectText)}&body=${encodeURIComponent(body)}`;
+  
+  window.location.href = mailtoString;
   };
   </script>
   

@@ -4,7 +4,7 @@
   <div class="columns">
         <!-- First Column -->
         <div class="column is-flex is-flex-direction-row">
-            <img src="../../public/photos/supplynationcertified.png" alt="supplynations" class="supplynation mx-5"/>
+            <img src="../../public/supplynationcertified.png" alt="supplynations" class="supplynation mx-5"/>
             <p class="is-size-6 mt-4">
               Southstruct WA pty ltd is a supply nation registered business,
               we are a majority owned indigenous construction company.

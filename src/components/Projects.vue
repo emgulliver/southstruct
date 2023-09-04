@@ -26,42 +26,42 @@
   <script setup lang="ts">
   const projects = [
     {
-    src: "../../public/photos/ResidentialPalmyra.jpg",
+    src: "../../public/ResidentialPalmyra.jpg",
       heading: "Residential Palmyra",
       title: "HONED, SEAMLESS POOL SURROUNDING",
     },
     {
-        src: "../../public/photos/ResidentialCoogee.jpg",
+        src: "../../public/ResidentialCoogee.jpg",
       heading: "RESIDENTIAL COOGEE",
       title: "EXPOSED AGGREGATE TO DOUBLE DRIVEWAY",
     },
     {
-        src: "../../public/photos/RockinghamCarpark.jpg",
+        src: "../../public/RockinghamCarpark.jpg",
       heading: "ROCKINGHAM CARPARK",
       title: "LIGHT NON-SKID FINISH FOR CARPARK",
     },
     {
-        src: "../../public/photos/CoogeeApartments.jpg",
+        src: "../../public/CoogeeApartments.jpg",
       heading: "COOGEE APARTMENTS",
       title: "EXCAVATION & REINFORCEMENT TO FOUNDATIONS",
     },
     {
-        src: "../../public/photos/CoogeeResidential.jpg",
+        src: "../../public/CoogeeResidential.jpg",
       heading: "COOGEE RESIDENTIAL",
       title: "FORMWORK REINFORCEMENT TO SUSPENDED DECK",
     },
     {
-        src: "../../public/photos/MarbleBar.png",
+        src: "../../public/MarbleBar.png",
       heading: "MARBLE BAR HIGHWAY EXTENSION",
       title: "FORM, REINFORCE, POUR HEADWALL FOUNDATION & WALLS",
     },
     {
-        src: "../../public/photos/Inglewood.jpg",
+        src: "../../public/Inglewood.jpg",
       heading: "INGLEWOOD AGED CARE FACILITY",
       title: "FORMWORK REINFORCEMENT & CONCRETE TO LOAD BEARING COLUMN",
     },
     {
-        src: "../../public/photos/Melville.jpg",
+        src: "../../public/Melville.jpg",
       heading: "RESIDENTIAL COOGEE",
       title: "DEMOLITION & REINSTATEMENT OF FOOTPATH",
     },

@@ -10,7 +10,7 @@
 /* HERO */
 
 .hero {
-    background-image: url('../../public/photos/MainImage.svg');
+    background-image: url('../public/MainImage.svg');
     background-size: cover;
 
   }
@@ -147,7 +147,7 @@
 
   /* testimonials */
 .testimonial-background {
-  background-image: url('../../public/photos/Testimonials.png');
+  background-image: url('../public/Testimonials.png');
   background-size: cover;
 }
 

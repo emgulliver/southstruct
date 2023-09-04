@@ -7,6 +7,7 @@
           <div class="card-image" @mouseover="showOverlay(index)" @mouseout="hideOverlay">
             <figure class="image">
               <img :src="project.src" :alt="project.heading" style="height: 100%;"/>
+              <img src="../../public/CoogeeApartments.jpg" alt="">
             </figure>
             <div class="overlay" v-if="overlayIndex === index"></div>
           </div>

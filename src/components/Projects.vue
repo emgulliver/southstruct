@@ -22,44 +22,55 @@
 
   
   <script setup lang="ts">
+import ResidentialPalmyra from '../../public/ResidentialPalmyra.jpg';
+import ResidentialCoogee from '../../public/ResidentialCoogee.jpg';
+import RockinghamCarpark from '../../public/RockinghamCarpark.jpg';
+import CoogeeApartments from '../../public/CoogeeApartments.jpg';
+import CoogeeResidential from "../../public/CoogeeResidential.jpg";
+import MarbleBar from "../../public/MarbleBar.png";
+import Inglewood from "../../public/Inglewood.jpg";
+import Melville from "../../public/Melville.jpg";
+
+
+
   const projects = [
     {
-      src: "../../public/ResidentialPalmyra.jpg",
+      src: ResidentialPalmyra,
       heading: "Residential Palmyra",
       title: "HONED, SEAMLESS POOL SURROUNDING",
     },
     {
-      src: "../../public/ResidentialCoogee.jpg",
+      src: ResidentialCoogee,
       heading: "RESIDENTIAL COOGEE",
       title: "EXPOSED AGGREGATE TO DOUBLE DRIVEWAY",
     },
     {
-      src: "../../public/RockinghamCarpark.jpg",
+      src: RockinghamCarpark,
       heading: "ROCKINGHAM CARPARK",
       title: "LIGHT NON-SKID FINISH FOR CARPARK",
     },
     {
-      src: "../../public/CoogeeApartments.jpg",
+      src: CoogeeApartments,
       heading: "COOGEE APARTMENTS",
       title: "EXCAVATION & REINFORCEMENT TO FOUNDATIONS",
     },
     {
-      src: "../../public/CoogeeResidential.jpg",
+      src: CoogeeResidential,
       heading: "COOGEE RESIDENTIAL",
       title: "FORMWORK REINFORCEMENT TO SUSPENDED DECK",
     },
     {
-      src: "../../public/MarbleBar.png",
+      src: MarbleBar,
       heading: "MARBLE BAR HIGHWAY EXTENSION",
       title: "FORM, REINFORCE, POUR HEADWALL FOUNDATION & WALLS",
     },
     {
-      src: "../../public/Inglewood.jpg",
+      src: Inglewood,
       heading: "INGLEWOOD AGED CARE FACILITY",
       title: "FORMWORK REINFORCEMENT & CONCRETE TO LOAD BEARING COLUMN",
     },
     {
-      src: "../../public/Melville.jpg",
+      src: Melville,
       heading: "RESIDENTIAL COOGEE",
       title: "DEMOLITION & REINSTATEMENT OF FOOTPATH",
     },

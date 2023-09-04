@@ -68,9 +68,9 @@
 
   ];
   
-  let overlayIndex = null;
+  let overlayIndex: any = null;
   
-  const showOverlay = (index) => {
+  const showOverlay = (index: any) => {
     overlayIndex = index;
   };
   

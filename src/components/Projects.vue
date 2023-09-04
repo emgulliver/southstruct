@@ -1,23 +1,20 @@
 <template>
   <section class="section">
     <h2 class="has-text-centered is-size-3 mb-5">OUR PROJECTS</h2>
-    <div class="projects-container columns is-multiline mt-5">
-      <div class="column is-4" v-for="(project, index) in projects" :key="index">
-        <div class="card">
-          <div class="card-image" @mouseover="showOverlay(index)" @mouseout="hideOverlay">
-            <img :src="project.src" :alt="project.heading" style="height: 100%;"/>
-            <div class="overlay" v-if="overlayIndex === index"></div>
-          </div>
-          <div class="card-content">
-            <p class="project-heading">{{ project.heading }}</p>
-            <p class="project-title">{{ project.title }}</p>
-          </div>
+    <div class="projects-container">
+      <div class="project-card" v-for="(project, index) in projects" :key="index">
+        <div class="project-image" @mouseover="showOverlay(index)" @mouseout="hideOverlay">
+          <img :src="project.src" :alt="project.heading" />
+          <div class="overlay" v-if="overlayIndex === index"></div>
+        </div>
+        <div class="project-content">
+          <p class="project-heading">{{ project.heading }}</p>
+          <p class="project-paragraph">{{ project.title }}</p>
         </div>
       </div>
     </div>
   </section>
 </template>
-
 
 
   
@@ -36,7 +33,7 @@ import Melville from "../../public/Melville.jpg";
   const projects = [
     {
       src: ResidentialPalmyra,
-      heading: "Residential Palmyra",
+      heading: "RESIDENTIAL PALMYRA",
       title: "HONED, SEAMLESS POOL SURROUNDING",
     },
     {
@@ -71,7 +68,7 @@ import Melville from "../../public/Melville.jpg";
     },
     {
       src: Melville,
-      heading: "RESIDENTIAL COOGEE",
+      heading: "CITY OF MELVILLE",
       title: "DEMOLITION & REINSTATEMENT OF FOOTPATH",
     },
 

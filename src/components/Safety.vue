@@ -12,7 +12,7 @@
         </div>
         <div class="column">
           <p class="has-text-white safety-text px-5">
-            Southstruct is committed to upholding all safety values and commitments. Our concrete construction company aims to create a positive safety culture, protect our workforce, and contribute to the well-being of the communities and clients we serve. Safety is not just a priority; it is an integral part of our identity and the foundation of our success.
+            Southstruct WA is committed to upholding all safety values and commitments. Our concrete construction company aims to create a positive safety culture, protect our workforce, and contribute to the well-being of the communities and clients we serve. Safety is not just a priority; it is an integral part of our identity and the foundation of our success.
           </p>
         </div>
       </div>

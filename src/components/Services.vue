@@ -22,7 +22,7 @@
           <div class="box has-text-centered has-background-primary has-text-white" style="padding: 50px 30px 50px 30px">
             <h2 class="has-text-weight-semibold mb-4 is-size-5">CIVIL</h2>
             <p class="service-paragraph">
-              Complete services of detailed earthwork - i.e. strip/pad footing, detailed ground works. Concrete works - reinforcement, formwork, and concrete construction for foundations, footpaths, walls, pedestals, plinths, and culverts.
+              Complete services of detailed earthwork - such as, strip/pad footing, detailed ground works. Concrete works - reinforcement, formwork, and concrete construction for foundations, footpaths, walls, pedestals, plinths, and culverts.
             </p>
           </div>
         </div>

@@ -1,12 +1,14 @@
 <template>
-
-      <nav class="navbar is-sticky">
-        <div class="navbar-brand">
-          <a class="navbar-item" href="#">
-            <img src="../../public/SouthstructLogo.png" alt="Logo" style="height: 20px;" class="ml-3">
-      
-          </a>
-        </div>
-      </nav>
-
-  </template>
+  <nav class="navbar is-sticky">
+    <div class="navbar-brand">
+      <a class="" href="#">
+        <img
+          src="../../public/southstructWALOGO.png"
+          alt="Logo"
+          style="height: 100px"
+          class="mx-5 my-2"
+        />
+      </a>
+    </div>
+  </nav>
+</template>
